@@ -55,6 +55,7 @@ Check out the code from Github::
 
 Run install (this should install dependencies)::
 
+    sudo apt-get install python3-setuptools
     python3 setup.py install
 
 Compile the icons file for Qt::
