@@ -41,7 +41,7 @@ if platform.system() in ['Linux', 'FreeBSD', 'DragonFly']:
     ]
 
 setup(
-    name="Electrum",
+    name="Electrum-Hush",
     version=version.ELECTRUM_VERSION,
     install_requires=requirements,
     packages=[
@@ -81,12 +81,12 @@ setup(
     },
     scripts=['electrum'],
     data_files=data_files,
-    description="Lightweight Bitcoin Wallet",
-    author="Thomas Voegtlin",
+    description="Lightweight Hush Wallet",
+    author="Hush Develepers",
     author_email="thomasv@electrum.org",
     license="MIT Licence",
-    url="https://electrum.org",
-    long_description="""Lightweight Bitcoin Wallet"""
+    url="https://myhush.org",
+    long_description="""Lightweight Hush Wallet"""
 )
 
 # Optional modules (not required to run Electrum)
